@@ -82,8 +82,8 @@ def main(host, port):
 
 if __name__ == "__main__":
     if len(sys.argv) <= 2:
-        print("To listen for data on UDP port 6000, try running:")
-        print("   python3 server.py server-ip-address 6000")
+        print("To listen for data on IP address 1.2.3.4 UDP port 6000, try running:")
+        print("   python3 server.py 1.2.3.4 6000")
         sys.exit(0)
     host = sys.argv[1]
     port = int(sys.argv[2])
